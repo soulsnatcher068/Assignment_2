@@ -14,6 +14,6 @@ void main()
     printf("\nEnter tax percent = ");
     scanf("%lf",&tx);
     amt=pr+((pr*tp)/100)+((pr*tx)/100);
-    printf("\nTotal cost = %lf",round(amt));
+    printf("\nTotal cost = %.0lf",round(amt));
     
 }
